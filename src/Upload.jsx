@@ -31,7 +31,7 @@ const Upload = ({ isLoading, setIsLoading }) => {
       // Start reading the file as DataURL
       reader.readAsDataURL(file);
     } else {
-      alert("Invalid file type. Only PNG, JPG, and JPEG files are allowed.");
+      alert("Invalid file type. Only PNG, JPG, and JPEG files are allowed!");
     }
   };
 
